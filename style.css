@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+:root{
+    --green: #6A9966;
+    --purple: #956699;
+    --darkpurple: #7E4EB1;
+    --darkgreen: #507e4c;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--purple);
+    padding: 40px 20px;
+}
+
+h1 {
+    color: rgb(129, 212, 126);
+}
+
+.align-right{
+    text-decoration: none;
+    color: rgb(6, 195, 0);
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.second-header {
+    background-color: var(--green);
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+.position-right {
+    display: flex;
+    width: 100%;
+    position: relative;
+    left: 90%;
+    padding: 20px 0;
+}
+
+.left-header {
+    display: flex;
+    max-width: 100%;
+}
+.titles{
+    padding: 10% 10%;
+    font-size: 6em;
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--darkpurple);
+    border-right: solid 6px;
+    max-width: 30%;
+}
+#about{
+    padding: 10% 2%;
+    font-size: 3em;
+}
+
+#work{
+    position: absolute;
+    text-align: left;
+    font-size: 1em;
+    top: 80%;
+    padding: 15px;
+    background-color: var(--darkgreen);
+    border-radius: 5px;
+}
+
+.container {
+    position: relative;
+    left: 40px;
+    transition: .2s;
+    border: solid 6px rgb(89, 89, 169);
+}
+
+
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+.titles-contact {
+    padding: 10% 10%;
+    font-size: 3em;
+    font-style: italic;
+    text-decoration: underline;
+    color: var(--darkpurple);
+    border-right: solid 6px;
+}
+
+.contactbottom {
+    font-size: 2em;
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    background-color: var(--green);
+    border-radius: 4px;
+}
+
+#contactinfo {
+    font-size: 5em;
+}
